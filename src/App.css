@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+@media (max-width:480px) {
+  body {
+    background-color: #FFD95A;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .dashboard_img {
+    width: 100%;
+    margin: 45% auto 12% auto;
+
+  }
+
+  .get_started {
+    width: 85%;
+    min-height: 3.6em;
+    border: none;
+    border-radius: 20px;
+    background-color: #C07F00;
+    color: #FFF7D4;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+  }
+
+  .dashboard h1 {
+    margin: 2.4rem;
+  }
+
+
+}
